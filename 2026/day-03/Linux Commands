@@ -32,6 +32,7 @@ fg %1 - bring job to foreground
 pgrep - to search process by name
 nice -n - to start the process with priority
 renice -n - to change priority of running process
+systemctl restart/stop/start/status - to check statu/stop/start/restart the process
 
 Networking troubleshooting:
 
