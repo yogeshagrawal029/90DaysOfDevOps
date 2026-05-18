@@ -33,6 +33,7 @@ pgrep - to search process by name
 nice -n - to start the process with priority
 renice -n - to change priority of running process
 systemctl restart/stop/start/status - to check statu/stop/start/restart the process
+uname -r - to check the kernel version
 
 Networking troubleshooting:
 
@@ -46,5 +47,3 @@ nslookup - to Queries DNS to find IP address from domain
 curl - to transfer data / test web endpoints
 wget - to download files from internet
 hostname - to show or set system name
-32.uname -r - to check the kernel version
-33.kill - to kill the process(-9 - forcefully)
