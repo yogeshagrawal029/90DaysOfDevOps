@@ -1,3 +1,5 @@
+Fav command: history, top, df -h, free -m, telnet, ps -auf
+
 File system:
 
 ls - to list all the files and folder available(if used with -lrth for long list with reverse with sort and in human readable)
@@ -20,6 +22,7 @@ tar - to zip the file or directory
 ln - for hardlink, ln -s - for softlink
 
 Process management:
+
 top/htop - to monitor system process and resouce usage in realtime
 ps -ef - to display info about the current running process(e- show all processes on the system, f- detailed form)
 vmstat
@@ -30,7 +33,8 @@ pgrep - to search process by name
 nice -n - to start the process with priority
 renice -n - to change priority of running process
 
-Networking troubleshooting
+Networking troubleshooting:
+
 ip -a - to check and manage n/w config(-a - show all n/w interface)
 telnet - to connect to a remote system or port
 ping - to check network connection b/w 2 system( -t - how many hops a packet can travel)
