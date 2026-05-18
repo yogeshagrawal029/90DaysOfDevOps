@@ -1,0 +1,45 @@
+File system:
+
+ls - to list all the files and folder available(if used with -lrth for long list with reverse with sort and in human readable)
+df -h - to check for the disk space usage in human readable form for entire filesystem
+du -sh - to check the disk space usage for particular folder or directory
+mkdir - to create the new folder or directory(if used with -p then it will check for the folder present and if not present then it    will create the folder)
+free -m - to check the memory utilization and free space
+ps -ef --sort=%mem%
+pwd - to check the path of current directory you are in
+cd - to change the directory
+touch - to create empty file
+cp - to copy from one folder to another folder
+mv - to move from one folder to another folder
+rm - to remove the file and directory
+cat - to view the file content
+less - to view the content via scrollable view
+tail - to view last 10 lines of the file
+head - to view 1st 10 lines of the file
+tar - to zip the file or directory
+ln - for hardlink, ln -s - for softlink
+
+Process management:
+top/htop - to monitor system process and resouce usage in realtime
+ps -ef - to display info about the current running process(e- show all processes on the system, f- detailed form)
+vmstat
+iostat
+bg %1 - send to background
+fg %1 - bring job to foreground
+pgrep - to search process by name
+nice -n - to start the process with priority
+renice -n - to change priority of running process
+
+Networking troubleshooting
+ip -a - to check and manage n/w config(-a - show all n/w interface)
+telnet - to connect to a remote system or port
+ping - to check network connection b/w 2 system( -t - how many hops a packet can travel)
+dig - to Advanced details for DNS queries
+netstat -tunlp - Shows network connections and listening ports(-t → TCP, -u → UDP, -n → Numeric (no DNS lookup), -l → Listening       ports, -p → Process ID/program name)
+ss -tunlp - ss is preferred in newer systems, Shows network connections and listening ports(-t → TCP, -u → UDP, -n → Numeric (no       DNS lookup), -l → Listening ports, -p → Process ID/program name)
+nslookup - to Queries DNS to find IP address from domain
+curl - to transfer data / test web endpoints
+wget - to download files from internet
+hostname - to show or set system name
+32.uname -r - to check the kernel version
+33.kill - to kill the process(-9 - forcefully)
