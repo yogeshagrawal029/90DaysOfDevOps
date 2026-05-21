@@ -1,6 +1,14 @@
-
 Check running processes
+Output:
+sandbox@playground:~$ ps -aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+sandbox        1  0.1  0.0   4628  3708 pts/0    Ss+  15:36   0:00 /bin/bash
+sandbox       13  0.0  0.0   4628  3764 pts/1    Ss   15:36   0:00 /bin/bash
+sandbox       25  0.0  0.0   7064  1564 pts/1    R+   15:36   0:00 ps -aux
+sandbox@playground:~$ 
+
 Inspect one systemd service
+
 Capture a small troubleshooting flow
 
 
